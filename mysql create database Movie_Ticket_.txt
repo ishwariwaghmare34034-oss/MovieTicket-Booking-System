@@ -1,18 +1,6 @@
 mysql> create database Movie_Ticket_Booking_System;
 Query OK, 1 row affected (0.02 sec)
 
-mysql> create table Customer (customer_id int primary key auto_increment, name varchar(100) not null,
-    -> create table Customer (customer_id int primary key auto_increment, name varchar(100) not null, email VARCHAR(100) NOT NULL UNIQUE, phone varchar (15), gender varchar (10));
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'create table Customer (customer_id int primary key auto_increment, name varchar(' at line 2
-mysql> create table Customer (customer_id int primary key auto_increment, name varchar(100) not null, email VARCHAR(100) NOT NULL UNIQUE, phone varchar (15), gender varchar (10));
-ERROR 1046 (3D000): No database selected
-mysql> use database Movie_Ticket_Booking_System;
-ERROR 1049 (42000): Unknown database 'database'
-mysql> use database Movie_Ticket_Booking_System;
-ERROR 1049 (42000): Unknown database 'database'
-mysql> use database Movie_Ticket_Booking_System;
-ERROR 1049 (42000): Unknown database 'database'
-mysql> use Movie_Ticket_Booking_System;
 Database changed
 mysql> create table Customer (customer_id int primary key auto_increment, name varchar(100) not null, email VARCHAR(100) NOT NULL UNIQUE, phone varchar (15), gender varchar (10));
 Query OK, 0 rows affected (0.07 sec)
