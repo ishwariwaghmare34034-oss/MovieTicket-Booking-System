@@ -1,0 +1,22 @@
+1. What is SQL?
+
+---> SQL (Structured Query Language) is a standard language used to store, retrieve, update, and manage data in a relational database.
+
+2. what is difference between Data and Information?
+
+----> Data is raw information that helps making decision making, any row number information, date time etc are called data
+
+Information means processed, organized, and meaningful data that is useful for understanding and decision-making.
+
+3. What is Database and DBMS?
+
+----> Database organized collection of data generally stored and accessed electronically.
+     Software that allows users to create, store, retrieve, update, and manage databases efficiently.
+
+4. What is Relational Database Management System?
+
+-----> RDBMS (Relational database management system) stored data in a tabular from and enforce relationship them using key
+
+5. State at least 5 names of Database Management System or Software.
+
+----->MySQL , Oracle Database , Microsoft SQL Server , PostgreSQL , SQLite
